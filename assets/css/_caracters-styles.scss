@@ -1,0 +1,43 @@
+.caracters {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  .caracter {
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    min-width: 300px;
+
+    border: 3px solid #FFE81F;
+    h1 {
+      text-align: left;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    p {
+      color: white;
+    }
+    .button-see-more {
+      text-align: center;
+      margin: 0px 40px;
+      border: 3px solid #FFE81F;
+      margin-top: 20px;
+      padding: 10px;
+      transition: .2s;
+      cursor: pointer;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      &:hover {
+        background-color: #FFE81F;
+
+      }
+    }
+  }
+}
